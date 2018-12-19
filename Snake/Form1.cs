@@ -146,5 +146,25 @@ namespace Snake
                     break;
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            //gingnarak
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("กดซ้าย เลี้ยวซ้าย กดขวาเลี้ยวขวา เมื่อชนขอบจะจบเกม แล้วเริ่มใหม่ สามารถเพิ่มอาหารได้ ");
+        }
     }
 }
